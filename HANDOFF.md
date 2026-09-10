@@ -22,9 +22,15 @@ BrightNest quote choices now appear one step at a time: service → home size �
 
 BrightNest’s original version had browser checks for navigation, empty-form validation, demo confirmation, and 390px mobile layout. Later form expansions and the step flow passed builds and TypeScript checks but have not had a full new browser interaction pass. The other two sites passed builds; expanded forms passed TypeScript checks. Do not treat these as end-to-end browser tests.
 
+## Native iOS portfolio
+
+Driftwell is a fictional SwiftUI wellness-booking prototype in `ios/Driftwell`. It has a native home screen, four service choices, service details, specialist selection, date/time selection, review, demo confirmation, and an in-session Bookings state. It uses only local sample data and is visibly labeled as a portfolio demo. The iPhone 17 Pro simulator flow has been exercised through booking confirmation.
+
+The proposed second Fiverr gig is a single $595 package for up to five native SwiftUI screens, one focused interactive flow, local sample data, app icon, Xcode source, two revisions, and ten-day delivery. Backend, authentication, payments, live APIs, push notifications, TestFlight, and App Store submission require separate technical review. Copy and gallery order are in `fiverr/IOS-PROTOTYPE-GIG.md`; 1280×769 gallery assets are in `outputs/driftwell-ios/gallery`.
+
 ## Suggested next work
 
-Follow Ara’s next instruction. If he wants to prepare for launch, first review all three current forms on desktop/mobile, check next/back and service preselection, then capture current gallery screenshots. Old screenshots predate refinements. Draft the Fiverr listing around small-business landing pages. Earlier suggested launch prices ($65/$145/$295) were provisional and have not been verified against current competitors.
+When Fiverr support transfers Ara’s phone number, finish ID verification and Form W-9, review the saved website gig, and obtain Ara’s confirmation immediately before publishing. After that, create the separate native iOS prototype gig from `fiverr/IOS-PROTOTYPE-GIG.md`. Do not mix the iOS offer into the website gig.
 
 ## Cloud transition
 

@@ -1,12 +1,28 @@
 # Ara’s Fiverr portfolio
 
-Three fictional small-business landing pages, built as portfolio concepts.
+Three fictional small-business landing pages and one native iOS prototype, built as portfolio concepts.
 
 | Project | Folder | Private preview |
 | --- | --- | --- |
 | BrightNest Cleaning | `sites/brightnest` | https://brightnest-cleaning-ara.hossain1993.chatgpt.site |
 | Steel & Oak Barbershop | `sites/steel-oak` | https://steel-oak-ara.hossain1993.chatgpt.site |
 | Sunday Crumb Bakery | `sites/sunday-crumb` | https://sunday-crumb-ara.hossain1993.chatgpt.site |
+
+## Native iOS portfolio
+
+**Driftwell** is a fictional SwiftUI wellness-booking prototype in `ios/Driftwell`. It includes a complete user journey from service discovery through specialist and time selection, review, demo confirmation, and the Bookings tab. All content is local sample data; the app sends, stores, books, and charges nothing.
+
+Open `ios/Driftwell/Driftwell.xcodeproj` in Xcode, or build from the command line:
+
+```sh
+xcodebuild -project ios/Driftwell/Driftwell.xcodeproj \
+  -scheme Driftwell \
+  -sdk iphonesimulator \
+  -destination 'platform=iOS Simulator,name=iPhone 17 Pro' \
+  CODE_SIGNING_ALLOWED=NO build
+```
+
+Fiverr-ready gallery assets are in `outputs/driftwell-ios/gallery`. The complete second-gig copy and scope are in `fiverr/IOS-PROTOTYPE-GIG.md`.
 
 ## Development
 
